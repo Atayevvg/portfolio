@@ -1,0 +1,200 @@
+@media (max-width: 768px) {
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    input[type="text"], input[type="email"], textarea {
+        width: 100%;
+    }
+}
+
+body {
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+.hosgeldin{
+    font-size: 45px;
+    margin-top: 0; 
+    margin-bottom: -100px; 
+}
+.profile-picture {
+    display: inline-table ;
+    position: relative; 
+    width: 400px; 
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden; 
+    transition: transform 0.5s ease;
+    
+}
+
+.profile-picture img {
+    width: 100%; 
+    height: auto; 
+    
+}
+.profile-picture:hover {
+    transform: scale(1.05);
+}
+
+.github-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: #000000; 
+    border-radius: 50%; 
+    color: #fff; 
+    font-size: 40px; 
+    text-decoration: none;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    transition: transform 0.5s ease;
+}
+.github-icon:hover{
+    background-color: #ff5733;
+    color: #fff;
+    transform: scale(1.03);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: #ff5733;
+}
+
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #ccc;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.skill-level {
+    background-color: #333;
+    height: 100%;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    
+}
+.skill-level:hover{
+    
+    background-color: #ff5733;
+}
+
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    display:inline-flex ;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #ff5733;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+    width: 100%;
+}
+#anasayfa, #hakkimda, #yeteneklerim, #iletisim {
+    padding: 180px; 
+    text-align: center;
+}
+
+
+#anasayfa {
+    background-color: #f0f0f0; 
+}
+
+
+#hakkimda {
+    background-color: #f4f4f4; 
+    font-size: large;
+}
+
+
+#yeteneklerim {
+    background-color: #f8f8f8;
+}
+
+
+#iletisim {
+    background-color: #fcfcfc;
+}
